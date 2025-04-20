@@ -1,10 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D4A3F521-57F2-42F0-867C-4A0203FC09A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Building Blocks", "Building Blocks", "{5A331B69-35BD-44D7-AB94-C52A65C16543}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{EFF76864-A60E-459F-A899-4CD2F1AFDE82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{59B1E5ED-C478-4D3F-9976-4CFFD40C0D55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A331B69-35BD-44D7-AB94-C52A65C16543} = {D4A3F521-57F2-42F0-867C-4A0203FC09A0}
+		{EFF76864-A60E-459F-A899-4CD2F1AFDE82} = {D4A3F521-57F2-42F0-867C-4A0203FC09A0}
+		{59B1E5ED-C478-4D3F-9976-4CFFD40C0D55} = {D4A3F521-57F2-42F0-867C-4A0203FC09A0}
 	EndGlobalSection
 EndGlobal
